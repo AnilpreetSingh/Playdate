@@ -4,7 +4,7 @@ const URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001';
 
 export const socket = io(URL, { autoConnect: false });
 
-const PARTICIPANT_ID_KEY = 'duoplay-participant-id';
+const PARTICIPANT_ID_KEY = 'playdate-participant-id';
 let participantId;
 let currentRoomId = null;
 let hasOtherPlayer = false;

@@ -10,7 +10,11 @@ dotenv.config({ path: path.join(__dirname, '.env') });
 
 const ROOM_CODE_CHARACTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 const ROOM_CODE_LENGTH = 4;
-const FRONTEND_ORIGINS = ['http://localhost:5173', 'http://localhost:5174'];
+const FRONTEND_ORIGINS = [
+  'http://localhost:5173',
+  'http://localhost:5174',
+  'https://playdate-smoky.vercel.app',
+];
 const DRAW_ACTION_TYPES = new Set(['start', 'draw', 'end', 'fill', 'stroke']);
 const DRAW_TOOLS = new Set([
   'marker',

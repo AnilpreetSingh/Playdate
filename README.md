@@ -1,4 +1,4 @@
-# duoplay
+# Playdate
 
 A two-player shared whiteboard built with React, Vite, Tailwind CSS, Express, and Socket.IO. The bottom tool row offers a speed-sensitive marker, pen, watercolor, pencil, crayon, highlighter, a closed-outline fill tool, and eraser, plus a color picker and size control. The fill tool previews a dashed outline live to both players and fills the enclosed shape when the outline is closed. "Protect my strokes" is enabled by default; turn it off to let your partner paint over or erase your strokes. Brush textures are deterministic so they replay consistently for both players.
 

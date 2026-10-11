@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Socket.IO room server for duoplay",
+  "description": "Socket.IO room server for playdate",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",

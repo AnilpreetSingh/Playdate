@@ -73,7 +73,7 @@ function Home() {
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-lilac-light text-lilac-dark">
             <Gamepad2 aria-hidden="true" size={23} strokeWidth={2.2} />
           </div>
-          <span className="text-lg font-extrabold tracking-tight">duoplay</span>
+          <span className="text-lg font-extrabold tracking-tight">PLAYDATE</span>
           <span className="ml-auto rounded-full bg-lilac-light px-3 py-1 text-xs font-bold text-lilac-dark">
             BETA
           </span>
